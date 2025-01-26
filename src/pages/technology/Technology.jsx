@@ -44,7 +44,7 @@ export function Technology({ data }) {
                 <span className="text-secondary text-sm md:text-base tracking-[2.36px] md:tracking-[2.7px]">
                   THE TERMINOLOGY...
                 </span>
-                <h3 className="font-bellefair text-2xl md:text-[40px] lg:text-[56px] uppercase mt-2">
+                <h3 className="font-bellefair text-2xl md:text-[40px] uppercase mt-2">
                   {technology.name}
                 </h3>
                 <p className="text-secondary text-[15px] md:text-base lg:text-lg leading-6 md:leading-7 mt-4">
