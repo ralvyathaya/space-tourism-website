@@ -32,7 +32,7 @@ export function Crew({ data }) {
               <h4 className="font-bellefair text-base md:text-2xl lg:text-[32px] uppercase opacity-50">
                 {member.role}
               </h4>
-              <h3 className="font-bellefair text-2xl md:text-[40px] lg:text-[56px] uppercase mt-2">
+              <h3 className="font-bellefair text-2xl md:text-[40px] lg:text-[56px] uppercase mt-2 leading-[1.2] md:leading-[1.1] min-h-[60px] md:min-h-[80px]">
                 {member.name}
               </h3>
               <p className="text-secondary text-[15px] md:text-base lg:text-lg leading-6 md:leading-7 mt-4 max-w-md mx-auto lg:mx-0">
