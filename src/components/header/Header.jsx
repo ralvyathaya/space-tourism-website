@@ -33,7 +33,7 @@ export function Header() {
       <nav className={`fixed md:relative top-0 right-0 h-screen md:h-auto bg-white/5 backdrop-blur-2xl 
         ${isOpen ? "translate-x-0" : "translate-x-full"} md:translate-x-0 transition-transform duration-300
         w-2/3 md:w-auto pt-32 md:pt-0 pl-8 md:pl-0`}>
-        <ul className="flex flex-col md:flex-row gap-8 md:gap-12 text-white">
+        <ul className="flex flex-col md:flex-row gap-8 md:gap-12 text-white backdrop-blur-md bg-white/10 py-8 px-24 md:pl-12 ">
           {links.map(({ to, text, number }) => (
             <li key={to}>
               <Link
